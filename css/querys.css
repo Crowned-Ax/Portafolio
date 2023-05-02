@@ -1,0 +1,171 @@
+@keyframes luces{
+    from{
+        border-color: var(--color-gold);
+    }
+    to{
+        border-color: var(--color-darkGold);
+    }
+}
+@keyframes engranajes1{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(-359deg);
+    }
+}
+@keyframes engranajes2{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(359deg);
+    }
+}
+@keyframes movi{
+    0% {
+        transform: translateY(0vh) rotate(359deg);;
+    }
+    
+    25% {
+        transform: translate(0,-110vh);
+    }
+    50% {
+        transform: translate(-170vh, -110vh);
+    }
+    75% {
+        transform: translate(-170vh,80vh) rotate(359deg);;
+    }
+    85% {
+        transform: translate(0vh,80vh);
+    }
+    100% {
+        transform: translate(0vh,0vh);
+    }
+
+}
+@keyframes Eteclas{
+    0% {
+        background-color:rgb(26 26 24 / 48%)
+    }
+    
+    100% {
+        background-color: rgb(178 148 89);
+    }
+
+
+}
+
+
+/* Fin tuercas*/
+/* Media queries */
+@media (max-width: 1097px), (orientation: portrait){
+    .contenedor{
+        width: 100%;
+        margin-left: 0%;
+    }
+    nav{ display: flex}
+    nav ul a{
+        margin-left: 15vh;
+
+    }
+
+}
+@media (max-width: 895px), (orientation: portrait){
+    .contenedor{
+        width: 100%;
+        margin-left: 0%;
+    }
+    nav{ display: flex }
+}
+@media (max-width: 770px), (orientation: portrait){
+    .contenedor{
+        width: 100%;
+        margin-left: 0%;
+    }
+
+    #bar{display: block;}
+
+    nav{
+        background-color: rgb(209, 185, 107);
+        z-index: 2;
+        width: 100%;
+        height: 50vh;
+        position: absolute;
+        margin: 0px;
+        justify-content: flex-start;
+    }
+    nav ul{
+        display:flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        width: 100%;
+    }
+    nav ul li{
+        
+        position:relative;
+        padding: 4px;
+        color: white;
+    
+    }
+    nav ul a:hover{
+        background-color: var(--color-darkGold) ;
+    }
+    nav ul a{
+        text-decoration: none;
+        border: 1px solid  var(--color-darkGold);
+        padding: 4vh 4vh 2vh;
+        transition: 1s background-color ease-in;
+        width: 100%;
+        margin-left: 0vh;
+    }
+}
+@media (max-width: 682px), (orientation: portrait){
+    .contenedor{
+        width: 100%;
+        margin-left: 0%;
+    }
+    nav li{
+        color: white;
+        font-weight: bold;
+    }
+}
+@media (max-width: 650px), (orientation: portrait){
+    .contenedor{
+        width: 100%;
+        margin-left: 0%;
+    }
+
+    nav li{
+        color: white;
+        font-weight: bold;
+    }
+}
+@media (max-width: 583px), (orientation: portrait){
+    .contenedor{
+        width: 100%;
+        margin-left: 0%;
+    }
+    nav li{
+        color: white;
+        font-weight: bold;
+    }
+}
+
+
+@media print {
+   nav{
+        display:none;
+   }
+   #bar{
+        display:none;
+   }
+   .contenedor{
+    print-color-adjust: exact;
+   }
+   .eng{
+    display: none;
+   }
+
+}

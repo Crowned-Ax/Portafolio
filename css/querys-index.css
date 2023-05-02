@@ -1,0 +1,104 @@
+@media (max-width: 895px), (orientation: portrait){
+    #eng1{width: 25vh;}
+    #eng2{width: 30vh;}
+    #eng3{width: 35vh;}
+    #eng4{width: 25vh;}
+    #eng7{right: 0vh;}
+    .tuercas{left:10vh;}
+}
+@media (max-width: 770px), (orientation: portrait){
+    #eng1{width: 20vh;}
+    #eng2{width: 25vh;}
+    #eng3{width: 30vh;}
+    #eng4{width: 20vh;}
+    #eng5{
+        width: 40vh;
+        height: 40vh;
+        bottom: 50vh;
+        left: 9vh;
+    }
+    #eng7{right: 0vh;}
+    #Avatar{
+        width: 69%;
+        height: 69%;
+        margin-left: 15%;
+    }
+    .tuercas{left:9vh; top:15vh;}
+
+}
+@media (max-width: 682px), (orientation: portrait){
+
+    #eng1{width: 20vh;}
+    #eng2{width: 25vh;}
+    #eng3{width: 30vh;}
+    #eng4{width: 20vh;}
+    #eng5{
+        width: 40vh;
+        height: 40vh;
+        bottom: 50vh;
+        left: 9vh;
+    }
+    #eng7{right: 0vh;}
+    #Avatar{
+        width: 69%;
+        height: 69%;
+        margin-left: 15%;
+    }
+    .tuercas{left:5vh; top:15vh;}
+
+}
+@media (max-width: 650px), (orientation: portrait){
+
+    #eng1{width: 25vh;}
+    #eng2{width: 20vh;}
+    #eng3{width: 25vh;}
+    #eng4{width: 15vh;}
+    #eng5{
+        width: 35vh;
+        height: 35vh;
+        bottom: 45vh;
+        left: 7vh;
+    }
+    #eng7{right: 0vh;}
+    #Avatar{
+        width: 69%;
+        height: 69%;
+        margin-left: 15%;
+    }
+    .tuercas{left:1vh; top:15vh;}
+
+}
+@media (max-width: 583px), (orientation: portrait){
+
+    #eng1{width: 20vh;}
+    #eng2{width: 15vh;}
+    #eng3{width: 20vh;}
+    #eng4{width: 10vh;}
+    #eng5{
+        width: 30vh;
+        height: 30vh;
+        bottom: 35vh;
+        left: 7vh;
+    }
+    #eng7{right: 0vh;}
+    #Avatar{
+        width: 69%;
+        height: 69%;
+        margin-left: 15%;
+    }
+    .tuercas{left:1vh; top:20vh; overflow: visible;}
+
+}
+
+@media print {
+    .tuercas{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #eng5{
+        bottom: 0vh;
+        left: 0vh;
+    }
+ 
+ }

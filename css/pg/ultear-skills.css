@@ -1,0 +1,130 @@
+.contenedor{
+    height: 300vh;
+    display: grid;
+    grid-template-rows: auto auto auto;
+    grid-template-columns: 100%;
+}
+section{
+    width: 100%;
+    height: 90vh;
+    font-size:2.5em;
+
+}
+.icono{
+    width: 10vh;
+    height: 10vh;
+}
+.hoja{
+    width: 100%;
+    height: 95%;
+    border-radius: 25px;
+    background-color: rgb(178 148 89 / 48%);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+/**/
+.eng{
+    width: 20vh;
+    height: 20vh;
+    position: absolute;
+    right: 12vh;
+    top: 214vh;
+}
+#eng1{
+    
+    animation: engranajes1 7s infinite linear;
+}
+#eng2{
+
+    animation: movi 15s infinite ease-in-out ;
+}
+
+
+/**/
+.up{
+    float:right;
+    position: sticky;
+    bottom: 10vh;
+    right: 2vh;
+    width: 10vh;
+    height: 10vh;
+    border-radius: 50%;
+    background-color: rgb(178 148 89 / 48%);
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    align-items: center;
+
+}
+/* Tabla*/
+
+td{
+    border-radius: 25px;
+    background-color: rgb(178 148 89 / 48%);
+    
+}
+
+.teclas1{
+    animation: Eteclas 5s infinite ease-in-out ;
+}
+
+table tr td{
+    padding-top: 5vh;
+}
+.icono{
+    border-radius: 50%;
+    width: 10vh;
+    height: 10vh;
+}
+.icono2{
+    border-radius: 50%;
+    width: 20vh;
+    height: 20vh;
+}
+/* fin tabla */
+/* slider */
+#intro{
+    margin: -2vh;
+    width: 102.3%;
+}
+
+.diag{
+    background-color:rgb(209 185 107 / 53%);
+    height: 100%;
+    display: flex;
+}
+#diag1{
+    clip-path: polygon(100% 0, 0 0, 0 100%);
+    width: 100%;
+
+}
+#diag2{
+    clip-path: polygon(100% 0, 100% 100%, 0 100%);
+    position: relative;
+    bottom: 90vh;
+    display: block;
+}
+
+.diag img{
+    opacity: 1;
+	transition: .3s ease-in-out;
+}
+.diag img:hover{
+    cursor: pointer;
+    opacity: .7;
+}
+#diag1 h3{
+    margin: 2vh;
+}
+#diag2 h3{
+    bottom: 5vh;
+    right: 5vh;
+}
+h3{
+    background-color: rgb(20 18 18 / 36%);
+    width: fit-content;
+    position: absolute;
+}
+
+

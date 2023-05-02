@@ -1,0 +1,75 @@
+.contenedor{
+    height: 85vh;
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: 100%;
+}
+#enca{
+    width: 100%;
+    height: 10vh;
+}
+#cn{
+    display: flex;
+}
+section{
+    display: flex;
+    flex-direction: column;
+}
+.princi{
+    width: 80vh;
+    height: 80vh;
+    animation: engranajes1 7s infinite linear;
+}
+/**/
+.eng-fixed{
+    position: relative;
+    background-image: url(../../img/engranaje4.png);
+    background-size: 100% 100%;
+    width: 30vh;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    animation: engranajes1 7s infinite linear;
+}
+.imagen{
+    border-radius: 100%;
+    width: 70%;
+    height: 70%;
+    margin-left: 15%;
+    animation: engranajes1 7s infinite linear reverse;
+}
+/**/
+.enun{
+    display: flex;
+    align-items: center;
+}
+#enun1{
+    position: relative;
+    right: 30vh;
+}
+#enun2{
+    position: relative;
+    right: 20vh;
+    bottom: 5vh;
+}
+#enun3{
+    position: relative;
+    bottom: 8.5vh;
+    right: 11vh;
+}
+/**/
+#ef1{
+    width: 35vh;
+}
+#ef2{
+    width: 50vh;
+    animation: engranajes1 7s infinite reverse linear;
+}
+#ef2 .imagen{
+    animation: engranajes1 7s infinite linear ;
+}
+
+/**/
+h2{
+    margin-left: 2vh;
+}

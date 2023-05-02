@@ -1,0 +1,26 @@
+.contenedor{
+    height: 85vh;
+    display: grid;
+    grid-template-rows: 10vh auto;
+    grid-template-columns: 100%;
+}
+
+#enca{
+    width: 100%;
+    height: 10vh;
+}
+#cn{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.enun img{
+    width: 20vh;
+    height: 20vh;
+    border-radius: 50%;
+}
+.enun{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
